@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "sb-rabbit",
+      "type": "com.turgaydede.config.ApplicationConfiguration",
+      "sourceType": "com.turgaydede.config.ApplicationConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sb-rabbit.exchange-name",
+      "type": "java.lang.String",
+      "sourceType": "com.turgaydede.config.ApplicationConfiguration"
+    },
+    {
+      "name": "sb-rabbit.queue-name",
+      "type": "java.lang.String",
+      "sourceType": "com.turgaydede.config.ApplicationConfiguration"
+    },
+    {
+      "name": "sb-rabbit.routing-name",
+      "type": "java.lang.String",
+      "sourceType": "com.turgaydede.config.ApplicationConfiguration"
+    }
+  ],
+  "hints": []
+}

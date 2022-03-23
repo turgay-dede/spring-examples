@@ -9,11 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elasticsearch" />
         <module name="spring-redis-cache" />
+        <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-rabbitmq-consumer" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-rabbitmq-consumer" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-redis-cache" options="-parameters" />
     </option>

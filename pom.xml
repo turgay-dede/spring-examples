@@ -11,6 +11,8 @@
     <modules>
         <module>spring-elasticsearch</module>
         <module>spring-redis-cache</module>
+        <module>spring-boot-rabbitmq</module>
+        <module>spring-boot-rabbitmq-consumer</module>
     </modules>
 
     <properties>
